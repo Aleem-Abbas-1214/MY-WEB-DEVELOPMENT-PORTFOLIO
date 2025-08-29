@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">My Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h2>Hello, I'm <span>Aleem Abbas</span></h2>
+            <p>A passionate <strong>Graphic Designer</strong></p>
+            <p>"Designing ideas into stunning visuals."</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p class="about">"Hi, I’m Aleem – A Creative Graphic Designer"
+            I’m a passionate graphic designer focused on creating modern, minimal, and visually appealing designs. From
+            logos and brand identity to social media graphics, I love turning ideas into creative visuals that make
+            brands stand out.
+            Although I’m a beginner in the freelance world, I believe in quality, creativity, and client satisfaction.
+            Every design I create is tailored to deliver the best experience and strong impact for your business.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h1>MY PROJECTS</h1>
+        <h2>THUMBNAILS</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="2.png" alt="Project 1">
+                <h3>CAR REVIEW THUMBNAIL</h3>
+            </div>
+            <div class="project-card">
+                <img src="7.png" alt="Project 2">
+                <h3>TEAVEL THUMBNAIL</h3>
+            </div>
+            <div class="project-card">
+                <img src="8.png" alt="Project 3">
+                <h3>RECIPE THUMBNAIL</h3>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 MyPortfolio | Designed by Aleem Abbas</p>
+    </footer>
+</body>
+
+</html>
